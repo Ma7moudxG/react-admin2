@@ -32,6 +32,7 @@ import {
     const handleDelete = (id: number) => {
       //delete the item
       // mutation.mutate(id)
+      console.log(id, ": id")
     };
   
     const actionColumn: GridColDef = {
