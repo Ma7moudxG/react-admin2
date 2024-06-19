@@ -58,6 +58,7 @@ const columns: GridColDef[] = [
 
 export const Users = () => {
   const [open, setOpen] = useState(false);
+
   return (
     <div className="users">
       <div className="info">

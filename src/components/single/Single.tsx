@@ -27,7 +27,7 @@ import {
         <div className="view">
           <div className="info">
             <div className="topInfo">
-              {props.img && <img src={props.img} alt="" />}
+              {props.img && <img src={props.img} alt={props.title} />}
               <h1>{props.title}</h1>
               <button>Update</button>
             </div>
